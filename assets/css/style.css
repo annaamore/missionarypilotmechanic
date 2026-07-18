@@ -1,0 +1,31 @@
+body {
+  padding-top: 56px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+footer small {
+  font-style: italic;
+}
+
+.badge-flight-training {
+  background-color: #28a745;
+}
+
+.badge-maintenance-training {
+  background-color: #007bff;
+}
+
+.badge-personal {
+  background-color: #f8b4c8;
+  color: #212529;
+}
+
+
