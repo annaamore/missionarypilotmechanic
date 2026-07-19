@@ -5,5 +5,4 @@ test-results/
 upload/
 tests/
 *.json
-!opencode.json
 playwright.config.js
