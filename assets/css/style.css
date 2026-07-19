@@ -5,6 +5,7 @@ body {
 .card-img-top {
   height: 200px;
   object-fit: cover;
+  object-position: center top;
 }
 
 .navbar-brand {
@@ -28,4 +29,14 @@ footer small {
   color: #212529;
 }
 
+.hero-profile {
+  width: 60%;
+  max-width: 350px;
+}
 
+@media (max-width: 576px) {
+  .hero-profile {
+    width: 50%;
+    max-width: 200px;
+  }
+}
