@@ -23,11 +23,17 @@
 - Personal = .badge-personal (light pink)
 
 ## Structure
+- All pages use directory-per-page (no .html in URLs): about/, contact/, blog/
 - Blog posts in blog/YYYY/slug/ with index.html
-- Pages: about/, contact/, blog/ (all with index.html)
 - Three most recent posts on homepage, all posts on blog/ newest-first
-- Tests: Playwright via `npm test`
+- OshKosh (July 2025) in blog/2025/oshkosh/; all others in blog/2026/
+- Contact form uses Formspree endpoint (https://formspree.io/f/xqerqyvo)
+- Homepage has What's Next, Prayer Requests, Answered Prayers sections
+
+## Tests
+- Playwright via `npm test`
 
 ## Git
 - Remote: https://github.com/annaamore/missionarypilotmechanic.git
-- .gitignore ignores node_modules/, .DS_Store, test-results/
+- .gitignore ignores: node_modules/, .DS_Store, test-results/, *.md, upload/
+- AGENTS.md is force-tracked despite *.md gitignore
