@@ -3,3 +3,7 @@ node_modules/
 test-results/
 *.md
 upload/
+tests/
+*.json
+!opencode.json
+playwright.config.js
