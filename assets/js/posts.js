@@ -4,5 +4,5 @@ const blogPosts = [
   { url: '/blog/2026/legacy-program/', title: 'Legacy Program' },
   { url: '/blog/2026/iama-conference/', title: 'IAMA Conference' },
   { url: '/blog/2026/first-solo/', title: 'First Solo' },
-  { url: '/blog/2025/oshkosh/', title: 'OshKosh' },
+  { url: '/blog/2025/oshkosh/', title: 'Oshkosh' },
 ];
