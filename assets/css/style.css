@@ -3,8 +3,12 @@
   --bs-link-hover-color-rgb: 0, 61, 130;
 }
 
+html {
+  scroll-padding-top: 56px;
+}
+
 body {
-  padding-top: 56px;
+  margin: 0;
 }
 
 .card-img-top {
@@ -22,11 +26,18 @@ footer small {
 }
 
 .badge-flight-training {
-  background-color: #28a745;
+  background-color: #b9e2bf;
+  color: #212529;
 }
 
 .badge-maintenance-training {
-  background-color: #007bff;
+  background-color: #b0d0ea;
+  color: #212529;
+}
+
+.badge-general {
+  background-color: #ced4da;
+  color: #212529;
 }
 
 .badge-personal {
@@ -37,6 +48,19 @@ footer small {
 .hero-profile {
   width: 60%;
   max-width: 350px;
+}
+
+.section-heading {
+  color: #212529;
+  border-bottom: 2px solid #212529;
+  padding-bottom: 0.5rem;
+}
+
+.scribble {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 44' preserveAspectRatio='none'%3E%3Cpath d='M6 24 C 40 13, 75 29, 115 19 S 190 25, 214 13' fill='none' stroke='%23b9e2bf' stroke-width='20' stroke-linecap='round' opacity='.65'/%3E%3Cpath d='M10 30 C 55 22, 110 34, 160 23 S 205 28, 213 24' fill='none' stroke='%23b9e2bf' stroke-width='14' stroke-linecap='round' opacity='.45'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 78%;
+  background-position: 0 70%;
 }
 
 .btn-primary {

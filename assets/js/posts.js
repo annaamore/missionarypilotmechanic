@@ -1,4 +1,5 @@
 const blogPosts = [
+  { url: '/blog/2026/mountain-flying/', title: 'Mountain Flying in Colorado' },
   { url: '/blog/2026/eaa-impact/', title: 'EAA Impact' },
   { url: '/blog/2026/andrews-university/', title: 'Andrews University' },
   { url: '/blog/2026/legacy-program/', title: 'Legacy Program' },
