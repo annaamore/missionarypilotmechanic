@@ -17,6 +17,12 @@ body {
   object-position: center top;
 }
 
+.card-img-anchor-bottom {
+  height: 200px;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
 .navbar-brand {
   letter-spacing: 0.5px;
 }
