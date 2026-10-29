@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.annajohnson.org/blog/2026/how-ai-helped-write-this-newsletter/">
+  <meta property="og:title" content="How AI Has Helped to Write This Newsletter — Missionary Pilot Journal">
+  <meta name="description" content="How a broke college student and her software engineer dad built this website for free — using OpenCode, plain English, and a little skill building to turn a doc into a published blog post.">
+  <meta property="og:description" content="How a broke college student and her software engineer dad built this website for free — using OpenCode, plain English, and a little skill building to turn a doc into a published blog post.">
+  <meta property="og:image" content="https://www.annajohnson.org/assets/img/og-how-ai-helped-write-this-newsletter.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+  <title>How AI Has Helped to Write This Newsletter — Missionary Pilot Journal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../../assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #1a4a2e;">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../../../">✈️ Missionary Pilot Journal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../../../">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../../../about/">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="../../">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="../../../contact/">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <article class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <header class="mb-4">
+          <span class="badge bg-secondary mb-2">General</span>
+          <small class="text-muted ms-2">October 15, 2026</small>
+          <h1 class="display-5 fw-bold mt-2">How AI Has Helped to Write This Newsletter</h1>
+        </header>
+
+        <p>Because my dad is a software engineer, and I&rsquo;m a broke college student, we had to find a way to create this website for free. I already had a domain name (if you want to know who my dad is: when choosing between two names for my little brother, my parents chose the name that had a domain available) so all that I had to do was create content and put it on the website!</p>
+
+        <p>The whole process starts with the post text which I write in a doc, then I give it to OpenCode and tell it to create a new post: the date, category, and the images that should go with it. I put the heic images in a folder that OpenCode then finds, converts, moves to a new folder, and inserts into the post. (Yay for skill building!) Once the post is created, I can review it locally and make edits before officially pushing it to the website. OpenCode talks to <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> and through some magic puts the new post onto the website for the public to see.</p>
+
+        <p>While setting up the <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> and domain permissions requires some technical expertise, once they are correctly set nothing else needs to be done to them. Skill building also requires previous experience, but it&rsquo;s not actually necessary, just convenient. The biggest reason that this method is the best solution for me is that I can type something in plain English and OpenCode will update all the pages for me &mdash; I don&rsquo;t need to know any coding at all!</p>
+
+        <figure class="my-4">
+          <img src="../../../assets/img/ai-newsletter.jpg" class="img-fluid rounded" alt="OpenCode">
+        </figure>
+
+      </div>
+    </div>
+  </article>
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <a href="../../../contact/" class="btn btn-primary btn-lg px-5">Join my email list for more updates</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 d-flex justify-content-between align-items-center">
+        <a href="../../" class="btn btn-outline-secondary btn-sm">&larr; Back to Blog</a>
+        <div class="d-flex gap-2">
+          <a id="prevPost" class="btn btn-outline-primary btn-sm d-none"></a>
+          <a id="nextPost" class="btn btn-outline-primary btn-sm d-none"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2026 Missionary Pilot Journal &mdash; built with ✝️ and ☕</p>
+      <small class="text-secondary">2 Timothy 1:7 &mdash; For God has not given us a spirit of fear, but of power and of love and of a sound mind.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../../assets/js/main.js"></script>
+  <script src="../../../assets/js/posts.js"></script>
+  <script>
+    (function(){var p=window.location.pathname.replace(/\/$/,"")+"/",i=blogPosts.findIndex(function(x){return x.url===p}),e=document.getElementById("prevPost"),n=document.getElementById("nextPost");if(i>0){e.href=blogPosts[i-1].url;e.classList.remove("d-none");e.textContent="\u2190 "+blogPosts[i-1].title}if(i<blogPosts.length-1){n.href=blogPosts[i+1].url;n.classList.remove("d-none");n.textContent=blogPosts[i+1].title+" \u2192"}})();
+  </script>
+</body>
+</html>

@@ -51,6 +51,11 @@ footer small {
   color: #212529;
 }
 
+.badge-updates {
+  background-color: #d8c5ef;
+  color: #212529;
+}
+
 .hero-profile {
   width: 60%;
   max-width: 350px;
