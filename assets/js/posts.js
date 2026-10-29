@@ -1,6 +1,6 @@
 const blogPosts = [
   { url: '/blog/2026/october-2026/', title: 'October 2026' },
-  { url: '/blog/2026/how-ai-helped-write-this-newsletter/', title: 'How AI Has Helped to Write This Newsletter' },
+  { url: '/blog/2026/how-ai-helped-write-this-newsletter/', title: 'How AI Has Helped Create This Newsletter' },
   { url: '/blog/2026/trusting-the-flight-instructor-above/', title: 'Trusting the Flight Instructor Above' },
   { url: '/blog/2026/september-update/', title: 'September Update' },
   { url: '/blog/2026/checkride-update/', title: 'Checkride update' },
